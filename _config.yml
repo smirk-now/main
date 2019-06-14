@@ -1,0 +1,19 @@
+collections:
+  developers:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "developers"
+    values:
+      layout: "developer"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
