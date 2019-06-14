@@ -6,7 +6,7 @@ layout: default
 <ul>
   {% for developer in site.developers %}
     <li>
-      <h2><a href="{{ developer.url }}">{{ developer.name }}</a></h2>
+      <h2><a href="{{ developer.url }}">{{ developer.short_name }}</a></h2>
       <h3>{{ developer.position }}</h3>
       <p>{{ developer.content | markdownify }}</p>
     </li>
